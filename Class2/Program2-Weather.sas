@@ -31,11 +31,12 @@ proc print;
 run;
 
 
-
+/*
 proc sort data=yr1998;
 	by day;
 proc sort data=yr1999;
 	by day;
+	*/
 data combined2;
 	set yr1998 yr1999;
 	by day;

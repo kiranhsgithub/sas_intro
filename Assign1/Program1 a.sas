@@ -1,4 +1,4 @@
-filename aaupfile '~/Assign1/AAUP_data.txt'; 
+filename aaupfile '~/sas_intro/Assign1/AAUP_data.txt'; 
 data aaup;
 infile aaupfile delimiter=',';
 input fice univ_name $ state $ type $ avg_sal_full_prof avg_sal_assoc_prof avg_sal_asst_prof avg_sal_all 
